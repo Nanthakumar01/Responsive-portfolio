@@ -13,7 +13,7 @@ A modern, responsive personal portfolio website built using HTML, CSS, and JavaS
 ## 🧩 Sections
 
 ### 🧑‍💻 About Me
-Brief introduction about yourself — your background, interests, and what you're passionate about in web development or any other field.
+As an aspiring Front-End Developer, I am passionate about creating visually appealing and user-friendly websites.I have a solid foundation in HTML, CSS,JavaScript and React, and I am eager to apply my skills in real-world projects. 
 
 ### 🛠️ Skills
 List of technical skills like:
@@ -22,35 +22,5 @@ List of technical skills like:
 - Git & GitHub
 - Responsive Design
 
-### 📂 Projects
-Highlight real-world or personal projects with:
-- Project titles
-- Descriptions
-- Live demo links (if available)
-- GitHub repositories
 
-### 🏅 Certificates
-Showcase of relevant certifications you’ve earned to validate your knowledge and learning journey.
-
-### 📬 Contact Me
-A simple contact form or contact details for reaching out — includes:
-- Name
-- Email
-- Message field
-- Or direct email/social links
-
-## 📸 Screenshots
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-| ![desktop view](./screenshots/desktop.png) | ![mobile view](./screenshots/mobile.png) |
-
-## 💻 Tech Stack
-
-- HTML5
-- CSS3 / Bootstrap
-- JavaScript
-- (Optional) Scroll animations using AOS or ScrollReveal
-
-## 📁 Folder Structure
 
