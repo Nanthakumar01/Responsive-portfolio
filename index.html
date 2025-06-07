@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1><span>Nanthakumar</span></h1>
+            <p>
+                I'm working in Front-end development.
+                I enjoy creating beautiful and intuitive web designs using Html and css 
+                and make them interactive with Javascript.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/_h_e_a_v_e_n_k_i_n_g__/?next=%2F&hl=en"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/nanthakumar-b-46401a2bb"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Nanthakumar01"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <a href="resume.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Front-end Developer</h3>
+                </div>
+                <!-- <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Software Developer</h3>
+                </div> -->
+                
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <!-- <div class="home-img">
+            <img src="" alt="">
+        </div> -->
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="12.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                As an aspiring Front-End Developer, I am passionate about creating visually appealing and user-friendly websites. I have a solid foundation in HTML, CSS,JavaScript and React, and I am eager to apply my skills in real-world projects. My recent coursework and personal projects have equipped me with hands-on experience in responsive design and web performance optimization. 
+               
+            </p>
+            <p>
+                I am a quick learner and a team player, always ready to take on new challenges. 
+                My goal is to leverage my skills in front-end development to create engaging user experiences that make a positive impact.
+            </p>
+            
+        </div>
+    </section>
+    <!--skills section-->
+                <!--skills section-->
+<section class="skills section" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills_container bd_grid">
+        <div>
+            
+            <p class="skills_text" data-aos="fade-down">
+                Without sharpening your weapon, standing on the battlefield would not increase your chance of winning.
+            </p>
+            <!--skills in html-->
+            <div class="skills_data">
+                <div class="skills_name"> 
+                    <i class="bx bxl-html5 skill_icon"></i>
+                    <span class="skill_name">HTML5</span>
+                </div>
+                <div><span class="skill_percentage">95%</span></div>
+                <div class="skill_bar skill_html"></div>
+            </div>
+            <!--skills in CSS-->
+            <div class="skills_data">
+                <div class="skills_name">
+                    <i class='bx bxl-css3 skill_icon'></i>
+                    <span class="skill_name">CSS3</span>
+                </div>
+                <div><span class="skill_percentage">85%</span></div>
+                <div class="skill_bar skill_css"></div>
+            </div>
+            <!--skills in JS-->
+            <div class="skills_data">
+                <div class="skills_name">
+                    <i class='bx bxl-javascript skill_icon'></i>
+                    <span class="skill_name">JAVASCRIPT</span>
+                </div>
+                <div><span class="skill_percentage">70%</span></div>
+                <div class="skill_bar skill_js"></div>
+            </div>
+            <!--skills in react-->
+            <div class="skills_data">
+                <div class="skills_name">
+                    <i class='bx bxl-react skill_icon'></i>
+                    <span class="skill_name">REACT</span>
+                </div>
+                <div><span class="skill_percentage">60%</span></div>
+                <div class="skill_bar skill_react"></div>
+            </div>
+            <!--skills in python-->
+            <div class="skills_data">
+                <div class="skills_name">
+                    <i class='bx bxl-python skill_icon'></i>
+                    <span class="skill_name">PYTHON</span>
+                </div>
+                <div><span class="skill_percentage">80%</span></div>
+                <div class="skill_bar skill_python"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects -->
+    <section class="services" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>CRUD Dashboard</h3>
+                <p>A CRUD dashboard is a web interface that allows users to Create, Read, Update, and Delete data easily. It helps manage database records visually using forms, tables, and buttons.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Task Manager(Todo-List)</h3>
+                <p>This To-Do List app, built with React and Tailwind CSS, allows users to add, manage, and delete tasks effortlessly. With real-time updates and local storage support, tasks are automatically saved and remain even after refreshing the page.
+                     and customer rating.
+                </p>
+                <a href="https://nanthakumar01.github.io/todo-list/" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Restaurent Website</h3>
+                <p>
+
+The e-commerce site includes a comprehensive product catalog categorized into different sections (e.g., electronics, clothing, books).
+ Each product listing typically includes details such as product name, description, images, price, availability status,</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates -->
+    <section class="portfolio" id="certificates">
+        <h2 class="heading">My <span>Certificates</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="certificate.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Cognifyz Technologies – Web Development Intern Dec 2024 – Jan 2025</h4>
+                    <p>Successfully completed a Web Development internship, demonstrating strong technical skills, attention to detail, 
+                        and a passion for building user-friendly web solutions.</p>
+                    <a href="https://drive.google.com/file/d/1DKcyG6tm8WCPl8ji4HoNXgDsTKqMQOSq/view?usp=drivesdk"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="certificate6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Cognifyz Technologies – Front-End Development Intern
+Jul 2024 – Aug 2024</h4>
+                    <p>Gained hands-on experience in front-end technologies, showcasing effective communication, coordination skills, and a strong desire to learn and grow in the development field.</p>
+                    <a href="https://drive.google.com/file/d/1VGTNDbRDXLfktRBc_KdyIjnqZfLWavyW/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="certificate2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>CSS and JavaScript Complete Course for Beginners – Udemy (Jun 2024)</h4>
+                    <p>Gained foundational knowledge in styling and scripting web pages using CSS and JavaScript.</p>
+                    <a href="https://drive.google.com/file/d/1VsaIx5qfAwt_ZCWgMi94Rccg1kpQQXoz/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="certificate3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Full Stack Developer Bootcamp – GeeksforGeeks (6-week program)</h4>
+                    <p>Covered end-to-end web development from frontend (HTML, CSS, JS) to backend (Node.js, Express).</p>
+                    <a href="https://drive.google.com/file/d/1VP7f27YXM2ui725sCp7FWP6x_4kWq_N8/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="certificate4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>React Hooks Techniques – Mind Luster (Oct 2024)</h4>
+                    <p>Learned advanced React concepts, focusing on hooks such as useState, useEffect, and custom hooks.</p>
+                    <a href="https://drive.google.com/file/d/1VECkwaNbHHOUMrQOKVucJBsrnhtCM2NX/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="certificate5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Communication Skills – TCS iON (Jul 2024)</h4>
+                    <p>Developed strong verbal and written communication, with a focus on professional and team collaboration.</p>
+                    <a href="https://drive.google.com/file/d/1VU6-eYWLytQ2I7pMaesBp67RILtDndjI/view?usp=drive_link"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="mailto:knantha631@gmail.com">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="" placeholder="Mobile Number" required>
+                <input type="text" placeholder="Email Subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Elevating The Digital Experience!</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
