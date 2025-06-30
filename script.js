@@ -27,17 +27,13 @@ window.onscroll = () => {
         };
     });
 
+    /*========== sticky navbar ==========*/
+    let header = document.querySelector('.header');
+    header.classList.toggle('sticky', window.scrollY > 100);
 
-/*========== sticky navbar ==========*/
-let header = document.querySelector('.header');
-
-header.classList.toggle('sticky', window.scrollY > 100);
-
-
-/*========== remove menu icon navbar when click navbar link (scroll) ==========*/
-menuIcon.classList.remove('bx-x');
-navbar.classList.remove('active');
-
+    /*========== remove menu icon navbar when click navbar link (scroll) ==========*/
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 };
 
 
@@ -48,12 +44,12 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
     grabCursor: true,
     pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+        el: ".swiper-pagination",
+        clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
 
@@ -61,6 +57,11 @@ var swiper = new Swiper(".mySwiper", {
 /*========== dark light mode ==========*/
 let darkModeIcon = document.querySelector('#darkMode-icon');
 
+// Set dark mode by default
+document.body.classList.add('dark-mode');
+darkModeIcon.classList.add('bx-sun');
+
+// Toggle dark mode on icon click
 darkModeIcon.onclick = () => {
     darkModeIcon.classList.toggle('bx-sun');
     document.body.classList.toggle('dark-mode');
